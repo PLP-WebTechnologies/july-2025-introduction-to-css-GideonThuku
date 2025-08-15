@@ -1,8 +1,7 @@
 # My CSS Basics & Box Model Assignment
 
 ## About
-This is my CSS assignment.  
-I made a simple web page about me and styled it with CSS.  
+This is my CSS assignment. I made a simple web page about me and styled it with CSS.  
 I used the Box Model (margin, padding, border) to make it look nice.
 
 ## Files
