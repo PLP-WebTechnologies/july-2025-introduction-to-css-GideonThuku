@@ -1,0 +1,77 @@
+/* reset all margins and paddings to avoid browser defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* style the whole page body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e9b1e1;
+  padding: 30px;
+  color: #333;
+}
+
+/* top part of the page (header) */
+header {
+  background-color: #7700af;
+  color: white;
+  padding: 20px;
+  border: 3px solid #e9a4db;
+  margin-bottom: 30px;
+}
+/* small text under the main title */
+.subtitle {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* main content layout */
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* this styles each card (box) of infomation */
+.card {
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #ccc;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* adds space to list inside the card */
+.card ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+/*   heading and subheadings */
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: #2d3e73;
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 15px;
+  color: #444;
+}
+
+/* style the bottom of the page */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 15px;
+  border-top: 2px solid #bbb;
+  background-color: #f7f9fc;
+}
